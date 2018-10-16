@@ -1,0 +1,217 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    font-size: 14px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1050px;
+    min-width: 320px;
+}
+
+.header-top {
+    background: #D30813;
+    height: 57px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.social-box {
+    float: right;
+}
+
+.social-box .fa {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+.social-box .fa:hover {
+    color: #ddd;
+}
+
+.social-box button {
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    padding: 7px 20px;
+    background: transparent;
+    cursor: pointer;
+    margin: 12px 20px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.social-box button:hover {
+    border: 2px solid #a50b13;
+}
+
+.header-second {
+    height: 57px;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: #ccc 0px 3px 6px;
+}
+
+.header-second h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -12px;
+    font-size: 35px;
+    color: #D30813;
+    cursor: pointer;
+}
+
+.header-second h1:hover {
+    color: #a50b13;
+}
+
+.header-second small {
+    color: #D30813;
+    font-size: 6.5px;
+    text-transform: uppercase;
+}
+
+.logo {
+    float: left;
+    width: 350px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo img {
+    float: left;
+    padding-top: 5px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul span{
+    color: #D30813;
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #282829;
+}
+
+nav ul li a:hover {
+    color: #D30813;
+}
+.map-box iframe{
+    margin-left: 35px;
+}
+.block_1{
+    background: #fff;
+    width: 100%;
+    margin-bottom: 35px;
+    position: relative;
+}
+.block_1-inner{
+    background: #fff;
+    margin-left: 10%;
+    margin-top: 35px;
+    border: 2px solid #ddd;
+    width: 76%;
+}
+.block_1-inner ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid #efcb23;
+    margin-right: 45px;
+}
+.block_1-inner ul p{
+    padding-left: 50px;
+    font-size: 12px;
+    display: inline-block;
+    padding-right: 35px;
+    color: #6A696B;
+
+}
+.inner-box{
+    background: #fff;
+    width: 150px;
+    height: 280px;
+    padding-top: 10px;
+    position: absolute;
+    top:20px;
+    left: 25px;
+}
+.inner-box .item {
+    border: 1px solid #6A696B;
+    width: 150px;
+    margin-top: 10px;
+}
+.inner-box .item a{
+    text-decoration: none;
+    color: #010101;
+    font-size: 16px;
+
+}
+.inner-box .item p{
+    text-align: center;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 58px;
+    background: #2B2A2C;
+    overflow: hidden;
+}
+
+footer nav {
+    float: right;
+}
+
+footer nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    color: #8D8D8E;
+    padding-top: 20px;
+    float: left;
+}
+
+footer .fa {
+    color: #8D8D8E;
+    font-size: 21px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+footer .fa:hover {
+    color: #fff;
+}

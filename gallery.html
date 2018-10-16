@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>gc</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_gallery.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <div class="wrapper">
+            <div class="social-box">
+                <a href="#" class="fa fa-search" aria-hidden="true"></a>
+                <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="#" class="fa fa-instagram" aria-hidden="true"></a>
+                <button>Online shopping</button>
+            </div>
+        </div>
+    </header>
+    <header class="header-second">
+        <div class="wrapper">
+            <div class="logo"><img src="img/thumb_34_activity_logo_small.png" alt="logo" width="40" height="45">
+                <a href="index.html"><h1>Grand comfort</h1></a>
+                <small>Уй-тиричилиги жана курулуш  учун / все для дома и строительства!</small>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="About.html">О нас</a></li>
+                    <li><a href="Shops.html">Магазины</a></li>
+                    <li><a href="shares2.html">Акции</a></li>
+                    <li><a href="discounts.html">Скидки</a></li>
+                    <li><a href="shares3.html">Новости</a></li>
+                    <li><a href="shares4.html">Галерея</a></li>
+                    <li><a href="About us.html">Контакты</a></li>
+                    <li><a href="map.html">Карта</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="block">
+            <p>Галерея &#8594; Чемпионат по сбору кубика Рубика</p>
+            <div class="slider-for">
+            </div>
+            <div class="slider-nav">
+                <div>
+                    <a rel="group" href="#"><img src="img/urban-438393_960_720.jpg" alt="#" width="768" height="377"></a>
+                </div>
+                <div>
+                    <a rel="group" href="#"><img src="img/urban-438393_960_720.jpg" alt="#" width="768" height="377"></a>
+                </div>
+                <div>
+                    <a rel="group" href="#"><img src="img/urban-438393_960_720.jpg" alt="#" width="768" height="377"></a>
+                </div>
+                <div>
+                    <a rel="group" href="#"><img src="img/urban-438393_960_720.jpg" alt="#" width="768" height="377"></a>
+                </div>
+                <div>
+                    <a rel="group" href="#"><img src="img/urban-438393_960_720.jpg" alt="#" width="768" height="377"></a>
+                </div>
+                <div>
+                    <a rel="group" href="#"><img src="img/urban-438393_960_720.jpg" alt="#" width="768" height="377"></a>
+                </div>
+            </div>
+            <h2>27.12.2017</h2>
+            <input type="button" value="Поделиться">
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <p> &copy; 2018 sunrise</p>
+            <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+            <a href="#" class="fa fa-instagram" aria-hidden="true"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Магазины</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Скидки</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Карта</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+    $(document).ready(function() {
+
+                    $('.slider-for').slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        fade: true,
+                        asNavFor: '.slider-nav'
+                    });
+                    $('.slider-nav').slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        asNavFor: '.slider-for',
+                        dots: true,
+                        focusOnSelect: true
+                    });
+                });
+    </script>
+</body>
+
+</html>
